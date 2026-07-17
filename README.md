@@ -28,53 +28,66 @@ When active, the skill edits, rewrites, proofreads, humanizes, or paraphrases te
 anti-ai-writing/                 # repo root
 ├── README.md
 ├── LICENSE
-└── anti-ai-writing/             # the skill folder
-    ├── SKILL.md                 # core instructions
-    └── reference/
-        ├── vocabulary.md
-        ├── sentence-and-rhythm.md
-        ├── openings-and-closings.md
-        ├── formatting-and-punctuation.md
-        ├── content-type-habits.md
-        ├── human-voice.md
-        └── detection-and-models.md
+└── skills/
+    └── anti-ai-writing/         # the skill folder
+        ├── SKILL.md             # core instructions
+        └── reference/
+            ├── vocabulary.md
+            ├── sentence-and-rhythm.md
+            ├── openings-and-closings.md
+            ├── formatting-and-punctuation.md
+            ├── content-type-habits.md
+            ├── human-voice.md
+            └── detection-and-models.md
 ```
-
-Install the inner `anti-ai-writing/` folder (the one that contains `SKILL.md`), not the whole git repo root.
 
 ## Installation
 
-Clone the repo:
+### skills.sh (recommended)
 
 ```bash
-git clone git@github.com:savicsly/anti-ai-writing-repo.git
-cd anti-ai-writing-repo
+npx skills@latest add savicsly/anti-ai-writing
+```
+
+The installer prompts for which agents to target (Cursor, Claude Code, etc.) and project vs global scope.
+
+Non-interactive example (global, all prompts skipped):
+
+```bash
+npx skills@latest add savicsly/anti-ai-writing --skill anti-ai-writing -g -y
 ```
 
 ### Claude.ai / Claude apps
 
-1. Zip or select the skill folder: `anti-ai-writing/` (must contain `SKILL.md`).
+1. Zip or select the skill folder: `skills/anti-ai-writing/` (must contain `SKILL.md`).
 2. In Claude, open **Settings → Capabilities → Skills** (wording may vary by client) and upload that folder, or use **Save skill** if you received a `.skill` package.
 
-### Claude Code
+### Manual install
+
+Clone, then copy the skill folder into your agent skills directory:
 
 ```bash
-cp -r anti-ai-writing ~/.claude/skills/
+git clone git@github.com:savicsly/anti-ai-writing.git
+cd anti-ai-writing
 ```
 
-### Cursor
-
-Personal (all projects):
+Claude Code:
 
 ```bash
-cp -r anti-ai-writing ~/.cursor/skills/
+cp -r skills/anti-ai-writing ~/.claude/skills/
 ```
 
-Project-only:
+Cursor (personal / all projects):
+
+```bash
+cp -r skills/anti-ai-writing ~/.cursor/skills/
+```
+
+Cursor (project-only):
 
 ```bash
 mkdir -p .cursor/skills
-cp -r anti-ai-writing .cursor/skills/
+cp -r skills/anti-ai-writing .cursor/skills/
 ```
 
 Restart or reload the agent if skills don't appear immediately.
