@@ -1,6 +1,11 @@
 ---
 name: anti-ai-writing
-description: "Rewrite text to sound genuinely human. Remove AI fingerprints including overused words, robotic rhythm, corporate tone, repetitive sentence structures, and internet clichés. Preserve meaning, improve flow, eliminate filler, and validate every response against the Anti-AI Writing knowledge base before completion."
+description: >-
+  Rewrite text to sound genuinely human. Remove AI fingerprints including
+  overused words, robotic rhythm, corporate tone, repetitive sentence
+  structures, and internet clichés. Preserve meaning, improve flow, and
+  eliminate filler. Use when asked to write, rewrite, edit, proofread,
+  humanize, paraphrase, or improve text.
 ---
 
 # Anti-AI Writing Humanizer
@@ -10,6 +15,8 @@ Use this skill whenever you are asked to write, rewrite, edit, proofread, humani
 Do **not** rewrite simply for the sake of rewriting. Edit with purpose. Every change should make the writing feel more authentic, natural, and enjoyable to read.
 
 The objective is not to "beat AI detectors." The objective is to produce writing that reads as though it was written by a thoughtful human.
+
+For deeper examples or genre patterns, read the matching file under [reference/](reference/).
 
 ---
 
@@ -87,7 +94,7 @@ Also avoid obvious AI stock phrases such as:
 * The key takeaway is...
 * At the end of the day...
 
-If a simpler alternative exists, use it.
+If a simpler alternative exists, use it. See [reference/vocabulary.md](reference/vocabulary.md).
 
 ---
 
@@ -111,6 +118,8 @@ Instead:
 * Let some ideas breathe.
 * Allow paragraphs to vary naturally.
 * Read the writing aloud to check its rhythm.
+
+For contrast frames and paragraph skeletons, see [reference/sentence-and-rhythm.md](reference/sentence-and-rhythm.md).
 
 ---
 
@@ -221,6 +230,8 @@ Instead:
 
 Not every piece of writing needs a formal conclusion.
 
+More openers/closers by genre: [reference/openings-and-closings.md](reference/openings-and-closings.md).
+
 ---
 
 # Remove Filler
@@ -268,11 +279,13 @@ Where appropriate:
 * Allow slight imperfections.
 * Make the writing sound like someone with experience, not someone summarizing information.
 
-Natural writing has texture.
+Natural writing has texture. For persona style guides, see [reference/human-voice.md](reference/human-voice.md).
 
 ---
 
 # Content-Specific Guidelines
+
+For deeper genre playbooks, see [reference/content-type-habits.md](reference/content-type-habits.md).
 
 ## Emails
 
@@ -284,8 +297,6 @@ Avoid:
 * Please don't hesitate...
 
 Write concise, natural emails that respect the reader's time.
-
----
 
 ## LinkedIn Posts
 
@@ -300,8 +311,6 @@ Avoid:
 
 Write like an experienced professional sharing genuine insights.
 
----
-
 ## Blog Articles
 
 Avoid:
@@ -314,8 +323,6 @@ Avoid:
 
 Prioritize useful information.
 
----
-
 ## YouTube Scripts
 
 Avoid:
@@ -327,8 +334,6 @@ Avoid:
 
 Write as though you're speaking naturally to one person.
 
----
-
 ## Technical Writing
 
 Do not simplify away technical accuracy.
@@ -339,8 +344,6 @@ Instead:
 * Improve readability.
 * Keep terminology correct.
 * Preserve precision.
-
----
 
 ## Academic Writing
 
@@ -361,8 +364,6 @@ Instead:
 * Let sentences vary in length even in formal writing — uniform academic cadence still reads as generated.
 * Preserve discipline-specific conventions (citation style, passive voice where the field expects it) unless asked to change them.
 
----
-
 ## Social Media Captions
 
 Avoid:
@@ -381,8 +382,6 @@ Instead:
 * Let humor come from the actual observation, not a recycled meme format.
 * Keep it short because the platform rewards it, not because you're filling a formula.
 
----
-
 ## Text Messages / DMs
 
 Avoid:
@@ -395,8 +394,6 @@ Instead:
 
 * Match how the person actually texts — casual, clipped, real.
 * Say the thing first; skip the preamble entirely.
-
----
 
 ## Product Descriptions
 
@@ -414,8 +411,6 @@ Instead:
 * Cut adjectives that could apply to any product in the category.
 * Let specificity do the selling instead of intensity.
 
----
-
 ## Press Releases
 
 Avoid:
@@ -430,8 +425,6 @@ Instead:
 * Lead with the news, not the emotion about the news.
 * Make quotes sound like something a specific person would actually say.
 * Keep it factual; let the news carry the weight.
-
----
 
 ## Cover Letters / Resumes
 
@@ -459,43 +452,26 @@ Before returning any response, verify that it:
 * Sounds natural when read aloud.
 * Uses varied sentence lengths.
 * Avoids repetitive sentence structures.
-* Avoids common AI vocabulary.
-* Avoids corporate jargon.
-* Avoids overused internet phrases.
-* Removes unnecessary filler.
-* Maintains a natural conversational flow.
+* Avoids common AI vocabulary, corporate jargon, and overused internet phrases.
+* Removes unnecessary filler and formulaic openings/closings.
+* Maintains natural conversational flow without sounding templated.
 * Is concise without feeling abrupt.
-* Does not sound templated or formulaic.
+
+Skim the matching `reference/` file for genre-specific habits before finishing.
 
 ---
 
-# Anti-AI Writing Knowledge Base
+# Additional resources
 
-Before finalizing any response, compare the output against the **Anti-AI Writing** knowledge base.
+Read on demand:
 
-Check for:
-
-* Common AI vocabulary.
-* Repetitive sentence patterns.
-* AI email habits.
-* AI LinkedIn habits.
-* AI blog habits.
-* AI YouTube script habits.
-* AI academic-writing habits.
-* AI social caption habits.
-* AI product-description habits.
-* AI press-release habits.
-* AI cover-letter/résumé habits.
-* Weak introductions.
-* Weak conclusions.
-* Artificial transitions.
-* Robotic rhythm.
-* Generic summaries.
-* Overused internet phrases.
-* Corporate jargon.
-* Formulaic writing patterns.
-
-Revise the content until these patterns have been minimized while preserving the author's original intent.
+* [reference/vocabulary.md](reference/vocabulary.md) — vocabulary, transitions, substitutes
+* [reference/sentence-and-rhythm.md](reference/sentence-and-rhythm.md) — sentence/paragraph patterns
+* [reference/openings-and-closings.md](reference/openings-and-closings.md) — intros and conclusions
+* [reference/formatting-and-punctuation.md](reference/formatting-and-punctuation.md) — lists, bold, dashes
+* [reference/content-type-habits.md](reference/content-type-habits.md) — email, LinkedIn, YouTube, blog, chat
+* [reference/human-voice.md](reference/human-voice.md) — conversational texture and personas
+* [reference/detection-and-models.md](reference/detection-and-models.md) — detection checklist, models, sources
 
 ---
 
