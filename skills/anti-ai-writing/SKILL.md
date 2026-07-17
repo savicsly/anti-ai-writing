@@ -7,7 +7,7 @@ description: >-
   eliminate filler. Use when asked to write, rewrite, edit, proofread,
   humanize, paraphrase, or improve text — including website copy, landing
   pages, UI microcopy, PR/commit messages, docs, READMEs, and other
-  user-facing or project writing in a codebase.
+  user-facing or project writing in a codebase (including RFCs/ADRs).
 ---
 
 # Anti-AI Writing Humanizer
@@ -83,23 +83,23 @@ Keep these short. For playbooks and before/after examples, open the matching ref
 
 **YouTube scripts** — No *Before we begin…* / *watch until the end* / *Let's dive right in*. Speak to one person. → [content-type-habits.md](reference/content-type-habits.md)
 
-**Technical writing** — Keep accuracy and terminology; remove unnecessary complexity only.
+**Technical writing** — Keep accuracy and terminology; remove ornamental complexity only. → [content-type-habits.md](reference/content-type-habits.md)
 
-**Academic** — Cut throat-clearing (*This paper aims to explore…*, *A plethora of studies…*). State the claim, cite specifics, preserve field conventions.
+**Academic** — Cut throat-clearing (*This paper aims to explore…*, *A plethora of studies…*). State the claim, cite specifics, preserve field conventions. → [content-type-habits.md](reference/content-type-habits.md)
 
 **Social captions** — Avoid POV / "this is your sign" templates. Write a specific thought. → [content-type-habits.md](reference/content-type-habits.md)
 
-**Texts / DMs** — Match real texting; say the thing first; skip preamble.
+**Texts / DMs** — Match real texting; say the thing first; skip preamble. → [content-type-habits.md](reference/content-type-habits.md)
 
-**Product descriptions** — Lead with concrete buyer-relevant detail; cut category-generic adjectives.
+**Product descriptions** — Lead with concrete buyer-relevant detail; cut category-generic adjectives. → [content-type-habits.md](reference/content-type-habits.md)
 
 **Website / landing** — Concrete hero outcome; feature lines that fail a competitor swap-test; specific proof; one primary CTA. → [content-type-habits.md](reference/content-type-habits.md)
 
-**Press releases** — Lead with the news; quotes a real person would say; no *thrilled to announce* padding.
+**Press releases** — Lead with the news; quotes a real person would say; no *thrilled to announce* padding. → [content-type-habits.md](reference/content-type-habits.md)
 
-**Cover letters / résumés** — Concrete fit and evidence; not *passionate about leveraging* keyword soup.
+**Cover letters / résumés** — Concrete fit and evidence; not *passionate about leveraging* keyword soup. → [content-type-habits.md](reference/content-type-habits.md)
 
-**Project writing** (UI microcopy, commits, PRs, issues, README/docs/changelogs, comments, review notes, Slack/status) → [reference/project-writing.md](reference/project-writing.md)
+**Project writing** (UI microcopy, commits, PRs, issues, README/docs/changelogs/release notes, RFCs/ADRs, comments, review notes, Slack/status) → [reference/project-writing.md](reference/project-writing.md)
 
 ---
 
@@ -143,8 +143,8 @@ Read on demand:
 * [reference/sentence-and-rhythm.md](reference/sentence-and-rhythm.md) — sentence/paragraph patterns
 * [reference/openings-and-closings.md](reference/openings-and-closings.md) — intros and conclusions
 * [reference/formatting-and-punctuation.md](reference/formatting-and-punctuation.md) — lists, bold, dashes
-* [reference/content-type-habits.md](reference/content-type-habits.md) — email, LinkedIn, YouTube, blog, website, chat
-* [reference/project-writing.md](reference/project-writing.md) — UI microcopy, PRs, commits, docs, comments
+* [reference/content-type-habits.md](reference/content-type-habits.md) — email, LinkedIn, YouTube, blog, website, technical, academic, social, product, press, cover letters, chat
+* [reference/project-writing.md](reference/project-writing.md) — UI microcopy, PRs, commits, docs, RFCs/ADRs, comments
 * [reference/human-voice.md](reference/human-voice.md) — conversational texture and personas
 * [reference/detection-and-models.md](reference/detection-and-models.md) — detection checklist, models, sources
 

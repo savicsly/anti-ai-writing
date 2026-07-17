@@ -22,7 +22,7 @@ When active, the skill edits, rewrites, proofreads, humanizes, or paraphrases te
 - Website / landing page copy
 - Press releases
 - Cover letters / résumés
-- Everyday project writing: UI microcopy, commits, PRs, issues, README/docs/changelogs, code comments, review notes
+- Everyday project writing: UI microcopy, commits, PRs, issues, README/docs/changelogs, RFCs/ADRs, code comments, review notes
 
 ## Repo structure
 
@@ -110,6 +110,8 @@ Example prompts:
 - "Rewrite this empty state and error toast — less 'Oops!', more specific."
 - "Humanize this PR description and the commit message."
 - "Edit the README intro so it doesn't sound like a product brochure."
+- "Tighten this ADR — decision first, cut the landscape opener."
+- "Humanize this cover letter without losing the formal register."
 
 In a project (for example Cursor), the skill prefers editing user-facing strings and docs in source files over rewriting a pasted dump of the whole page. It leaves logic, keys, and structure alone unless you ask otherwise.
 
@@ -125,8 +127,8 @@ The `reference/` files are readable on their own and linked from `SKILL.md` for 
 | `sentence-and-rhythm.md` | Sentence/paragraph patterns and cadence |
 | `openings-and-closings.md` | Formulaic intros/endings and human replacements |
 | `formatting-and-punctuation.md` | Lists, bold, em dashes, punctuation tells |
-| `content-type-habits.md` | Email, LinkedIn, YouTube, blog, website, chatbot habits |
-| `project-writing.md` | UI microcopy, commits, PRs, issues, docs, comments, review notes |
+| `content-type-habits.md` | Email, LinkedIn, YouTube, blog, website, technical, academic, social, product, press, cover letters, chat |
+| `project-writing.md` | UI microcopy, commits, PRs, issues, docs, release notes, RFCs/ADRs, comments, review notes |
 | `human-voice.md` | Conversational texture and persona style guides |
 | `detection-and-models.md` | Why AI is recognizable, checklist, models, sources |
 

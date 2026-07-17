@@ -1,6 +1,6 @@
-# Project Writing: UI, PRs, Docs & Team Text
+# Project Writing: UI, PRs, Docs, RFCs & Team Text
 
-Everyday writing inside software projects. Consult this file when editing microcopy, commits, PRs, issues, READMEs, changelogs, comments, or review notes.
+Everyday writing inside software projects. Consult this file when editing microcopy, commits, PRs, issues, READMEs, changelogs, release notes, RFCs/ADRs, comments, or review notes.
 
 Match the repo's existing voice when one exists (terse eng docs vs. friendlier product UI). Don't impose one "human" persona on every surface.
 
@@ -122,6 +122,52 @@ GitHub, Linear, Jira, etc.
 
 **Human:** "CLI to create, list, and destroy preview environments."
 
+### Release notes (vs. changelog)
+
+Changelogs are for operators scanning versions. Release notes are for humans deciding whether to care.
+
+| AI habit | Human equivalent |
+|----------|------------------|
+| We're excited to announce… | (state the change) |
+| This release brings significant improvements… | Name 1–3 changes that matter |
+| Enhanced performance and reliability | Checkout p95 down ~40% under load |
+| Synonym parade for one feature | One clear name + what it unlocks |
+
+**Human fix:** lead with user-visible change; put breaking changes first; skip celebration adjectives.
+
+---
+
+## RFCs / ADRs / design notes
+
+Architecture Decision Records, RFCs, and design docs go wrong when they sound like a strategy deck instead of a decision.
+
+### AI habits
+
+- Landscape openers (*In today's rapidly evolving…*, *As systems scale…*)
+- Padded Context that restates the ticket without a constraint
+- "We propose a comprehensive solution that…" with no rejected alternatives
+- Tradeoffs section that's three synonyms of "flexibility vs. complexity"
+- Consequences that only list upsides
+- Fake certainty (*This will ensure…*, *This guarantees…*) when you're choosing under uncertainty
+
+### Human fix
+
+- **Context:** the forcing function (incident, cost, deadline, constraint) — not industry weather
+- **Decision:** one sentence saying what you chose
+- **Alternatives considered:** real options you rejected, with why (even "we didn't have time")
+- **Consequences:** what gets easier *and* what gets harder; migration/rollback if relevant
+- Match the template your team uses (MADR, Nygard ADR, internal RFC) — fill it honestly, don't inflate it
+
+**AI:** "In order to enhance scalability and ensure long-term maintainability, we propose adopting a robust event-driven architecture that will empower teams to iterate seamlessly."
+
+**Human:** "Move billing webhooks to a queue. Sync handlers timed out at 12k events/day last week; a queue lets us retry without blocking Checkout."
+
+### Structural tells
+
+- Equal-length sections with no decision until the end
+- Status set to "Accepted" with zero dissent or open questions
+- Diagrams described in prose as "holistic" / "seamless" instead of showing data flow
+
 ---
 
 ## Code comments & JSDoc
@@ -195,5 +241,6 @@ GitHub, Linear, Jira, etc.
 - [ ] Commits/PRs state what/why without brochure language
 - [ ] Issues are reproducible or clearly scoped
 - [ ] Docs help someone do a task, not admire the product
+- [ ] RFCs/ADRs state the decision, rejected alternatives, and real tradeoffs
 - [ ] Comments explain why, not what the syntax already says
 - [ ] Review notes lead with the ask

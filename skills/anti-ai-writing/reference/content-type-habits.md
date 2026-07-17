@@ -1,6 +1,6 @@
-# Content-Type Habits: Email, LinkedIn, YouTube, Blog, Website & Chat
+# Content-Type Habits: Email, Social, Marketing, Academic & More
 
-Genre-specific AI tells and human replacements. Consult the section that matches the draft you're editing.
+Genre-specific AI tells and human replacements. Consult the section that matches the draft you're editing. For UI/PR/docs/RFCs, see [project-writing.md](project-writing.md).
 
 ---
 
@@ -250,12 +250,186 @@ When copy lives in pages, components, MDX, or locale files:
 
 ---
 
+## Technical writing
+
+Docs, runbooks, API references, how-tos. Accuracy stays; brochure tone goes.
+
+### AI habits
+
+- "Simply" / "just" / "easily" before steps that aren't simple
+- Restating the endpoint or function name in a full sentence
+- "It is important to note that" before every caveat
+- Conceptual preambles before the first actionable step
+- Parallel feature blurbs that could sit on a marketing page
+
+### Human fix
+
+- Lead with the task or the contract (what this API does / requires)
+- Keep required terminology; cut ornamental synonyms
+- Put warnings next to the dangerous step, not in a throat-clearing intro
+- Prefer examples with real shapes over abstract "foo/bar" when the domain has them
+
+**AI:** "In order to leverage the API effectively, users should utilize the authentication endpoint to obtain a token."
+
+**Human:** "POST `/auth/token` with client id and secret. Use the returned bearer token on later requests."
+
+---
+
+## Academic writing
+
+Keep the field's register and citation rules. Cut generated throat-clearing.
+
+### AI habits
+
+| AI habit | Human equivalent |
+|----------|------------------|
+| This paper aims to explore… | We argue / We test / We show… |
+| In recent years, there has been growing interest in… | (start with the gap or claim) |
+| A plethora of studies… | Name the studies or the count |
+| It is important to note that… | (state the caveat) |
+| This study seeks to fill a gap in the literature | Name the specific gap |
+| Overall, the findings suggest… | The findings show / We find… |
+| Furthermore / Moreover stacks between every claim | Vary or cut transitions |
+
+### Human fix
+
+- Thesis or research question early
+- Cite specifics instead of "many researchers argue"
+- Uniform academic cadence still reads as generated — vary sentence length
+- Preserve passive voice / citation style where the discipline expects it
+- Don't "humanize" into casual blog voice unless asked
+
+**AI:** "In recent years, there has been growing interest in the pivotal role of sleep in cognitive performance. This paper aims to explore this landscape."
+
+**Human:** "Sleep restriction of under five hours impairs working memory on n-back tasks; whether naps reverse that within the same day remains unclear."
+
+---
+
+## Social media captions
+
+### AI habits
+
+- POV: …
+- Tell me you're X without telling me you're X
+- This is your sign to…
+- Not me doing/being…
+- Rare footage of…
+- Manufactured relatability (*Anyone else…?*)
+- Emoji as every beat of punctuation
+- Hook → vague inspiration → "comment below" with no specific thought
+
+### Human fix
+
+- One observation that belongs to a specific person or moment
+- Humor from the actual detail, not a recycled meme shell
+- Short because the platform is short — not because you're filling slots
+
+**AI:** "This is your sign to stop scrolling and start building the life you deserve ✨"
+
+**Human:** "Closed the laptop at 6 for once. The Slack badge can wait."
+
+---
+
+## Text messages / DMs
+
+### AI habits
+
+- Full formal sentences and sign-offs in a chat thread
+- *Hope you're doing well!* / *Just wanted to reach out*
+- Numbered essays in a text
+- Over-hedged asks (*I was wondering if maybe you might…*)
+
+### Human fix
+
+- Match how that person actually texts — clipped, casual, real
+- Ask or news first; skip the warm-up
+- Fragments are fine; polish is suspicious
+
+**AI:** "Hi! I hope you're doing well. I wanted to reach out to see if you might be available to chat sometime this week regarding the project."
+
+**Human:** "Free Thu or Fri to talk through the launch checklist?"
+
+---
+
+## Product descriptions
+
+### AI habits
+
+| AI habit | Human equivalent |
+|----------|------------------|
+| Experience the ultimate… | (name the product and what it does) |
+| Designed to elevate your… | Made for [use] / [material/spec] |
+| Say goodbye to [problem] forever | Cuts [problem] by / Handles [case] |
+| Unleash the power of… | (concrete capability) |
+| Whether you're a beginner or a pro… | For [specific user] who [job] |
+| Perfect for any occasion | Name two real occasions or drop it |
+
+### Human fix
+
+- Lead with the detail a buyer compares (size, material, compatibility, limit)
+- Cut adjectives that fit every SKU in the category
+- Specificity sells; intensity doesn't
+
+**AI:** "Experience the ultimate comfort with our innovative, seamlessly designed chair that elevates your workspace."
+
+**Human:** "Mesh back, adjustable lumbar, rated for all-day desk use. Seat height 16–21 inches."
+
+---
+
+## Press releases
+
+### AI habits
+
+- We are thrilled/excited/proud to announce…
+- This marks a significant milestone…
+- [Company] is proud to unveil…
+- Interchangeable executive quotes (*"This underscores our commitment to innovation"*)
+- Boilerplate that could belong to any company in the paragraph
+
+### Human fix
+
+- Lead with the news (what shipped, who it affects, when)
+- Quotes: something only that person would say — a number, a customer, a constraint
+- Keep emotion out of the lede; facts carry the release
+
+**AI:** "We are thrilled to announce a significant milestone as we proudly unveil our next-generation platform."
+
+**Human:** "Acme launches EU data residency for Enterprise plans, available May 12 in Frankfurt and Dublin."
+
+---
+
+## Cover letters / résumés
+
+### AI habits
+
+| AI habit | Human equivalent |
+|----------|------------------|
+| I am writing to express my interest in… | (why this role / why you — concrete) |
+| Proven track record of… | Shipped X / Grew Y by Z |
+| Team player with excellent communication skills | (show via a collaboration example) |
+| Results-driven professional… | (delete; show results) |
+| Passionate about leveraging my skills… | I want this role because [specific] |
+| Responsible for managing… | Owned / Led / Built… |
+
+### Human fix
+
+- Open on fit or a relevant outcome, not a template sentence
+- Replace trait claims with evidence
+- Sound like someone who did specific things — not a keyword cloud
+- Keep the employer's required format; humanize the prose inside it
+
+**AI:** "I am a results-driven professional passionate about leveraging my skills to contribute to your innovative team."
+
+**Human:** "I led the checkout rewrite that cut payment failures 18% last quarter — same problem your posting describes."
+
+---
+
 ## Cross-format editing checklist
 
-- [ ] Delete genre templates (email hope-you're-well, LinkedIn three lessons, YouTube welcome-back, website unlock/elevate heroes)
+- [ ] Delete genre templates (email hope-you're-well, LinkedIn three lessons, YouTube welcome-back, website unlock/elevate heroes, press thrilled-to-announce)
 - [ ] Add one concrete detail only a real person/context would know
 - [ ] Match formality to the relationship and channel
 - [ ] Cut stacked CTAs and summary closers
 - [ ] Prefer one clear ask over soft hedges
 
-For UI microcopy, commits, PRs, issues, docs, and review comments, see [project-writing.md](project-writing.md).
+For UI microcopy, commits, PRs, issues, docs, RFCs/ADRs, and review comments, see [project-writing.md](project-writing.md).
