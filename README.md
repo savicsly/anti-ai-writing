@@ -19,6 +19,7 @@ When active, the skill edits, rewrites, proofreads, humanizes, or paraphrases te
 - Social media captions
 - Text messages / DMs
 - Product descriptions
+- Website / landing page copy (including user-facing strings in a codebase)
 - Press releases
 - Cover letters / résumés
 
@@ -102,8 +103,12 @@ Example prompts:
 - "Rewrite this email so it doesn't sound like ChatGPT wrote it."
 - "Edit this blog intro — cut the generic opening and keep my point."
 - "Proofread this cover letter for AI clichés and corporate filler."
+- "Review the copy on this landing page for AI-sounding marketing language."
+- "Humanize the hero and feature blurbs in `app/page.tsx` — keep the JSX intact."
 
-You can also ask the agent to consult a specific reference file (for example, email habits or the detection checklist).
+In a project (for example Cursor), the skill prefers editing user-facing strings in source files over rewriting a pasted dump of the whole page.
+
+You can also ask the agent to consult a specific reference file (for example, email habits, website habits, or the detection checklist).
 
 ## Reference manual
 
@@ -115,7 +120,7 @@ The `reference/` files are readable on their own and linked from `SKILL.md` for 
 | `sentence-and-rhythm.md` | Sentence/paragraph patterns and cadence |
 | `openings-and-closings.md` | Formulaic intros/endings and human replacements |
 | `formatting-and-punctuation.md` | Lists, bold, em dashes, punctuation tells |
-| `content-type-habits.md` | Email, LinkedIn, YouTube, blog, chatbot habits |
+| `content-type-habits.md` | Email, LinkedIn, YouTube, blog, website, chatbot habits |
 | `human-voice.md` | Conversational texture and persona style guides |
 | `detection-and-models.md` | Why AI is recognizable, checklist, models, sources |
 

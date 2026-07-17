@@ -1,4 +1,4 @@
-# Content-Type Habits: Email, LinkedIn, YouTube, Blog & Chat
+# Content-Type Habits: Email, LinkedIn, YouTube, Blog, Website & Chat
 
 Genre-specific AI tells and human replacements. Consult the section that matches the draft you're editing.
 
@@ -159,6 +159,66 @@ Tips lists that restate prose; "Key takeaways" after every H2.
 
 ---
 
+## Website / landing pages
+
+Marketing and product sites often read as AI because every section uses the same intensity and interchangeable claims.
+
+### Hero & above-the-fold
+
+| AI habit | Human equivalent |
+|----------|------------------|
+| Welcome to the future of… | (state the concrete outcome) |
+| The all-in-one platform for… | Name what it does in plain terms |
+| Seamless / effortless / powerful | Specific capability or result |
+| Transform / unlock / elevate your… | Say the actual change |
+| Built for modern teams | Built for [role] who [specific job] |
+
+### Feature grids
+
+- Three equal cards, each with an abstract noun + vague benefit
+- Icons paired with words that fit any SaaS tool (*collaborate*, *scale*, *insights*)
+- "Everything you need to…" with no boundary on what "everything" means
+
+**Human fix:** each feature line should fail the swap test — if you can paste it onto a competitor's site unchanged, rewrite it.
+
+### CTAs
+
+| AI habit | Human equivalent |
+|----------|------------------|
+| Get started / Learn more / Book a demo stacked | One primary CTA; secondary only if needed |
+| Start your journey | Start free / Try [product] / See pricing |
+| Join thousands of happy customers | Join [named customers] / [number] teams using… |
+
+### Social proof & about
+
+- "Trusted by teams worldwide" with no logos or names
+- Mission paragraphs full of *empower*, *reimagine*, *better way*
+- Founder story that could belong to any startup
+
+**Human fix:** name real customers, constraints, or decisions. About copy should sound like people who built something specific.
+
+### FAQ & pricing blurbs
+
+- FAQs that restate the hero in question form
+- Pricing tiers described with the same three adjectives at different prices
+- "Perfect for growing teams" on every plan
+
+**Human fix:** answer real objections; differentiate plans by limit, audience, or capability — not vibe.
+
+### In-codebase review
+
+When copy lives in pages, components, MDX, or locale files:
+
+- Edit visible strings only; keep JSX, props, keys, and routes intact
+- Keep tone consistent across hero → features → CTA on the same page
+- Prefer in-file rewrites over a detached "suggested copy" doc unless asked
+
+**AI:** "Unlock seamless collaboration and elevate your workflow with our all-in-one platform."
+
+**Human:** "Share a link, leave comments, and ship the doc without exporting five versions."
+
+---
+
 ## Conversation / chatbot habits
 
 ### Assistant disclaimers
@@ -192,7 +252,7 @@ Tips lists that restate prose; "Key takeaways" after every H2.
 
 ## Cross-format editing checklist
 
-- [ ] Delete genre templates (email hope-you're-well, LinkedIn three lessons, YouTube welcome-back)
+- [ ] Delete genre templates (email hope-you're-well, LinkedIn three lessons, YouTube welcome-back, website unlock/elevate heroes)
 - [ ] Add one concrete detail only a real person/context would know
 - [ ] Match formality to the relationship and channel
 - [ ] Cut stacked CTAs and summary closers

@@ -5,12 +5,13 @@ description: >-
   overused words, robotic rhythm, corporate tone, repetitive sentence
   structures, and internet clichés. Preserve meaning, improve flow, and
   eliminate filler. Use when asked to write, rewrite, edit, proofread,
-  humanize, paraphrase, or improve text.
+  humanize, paraphrase, or improve text — including website copy, landing
+  pages, marketing pages, and user-facing strings in a codebase.
 ---
 
 # Anti-AI Writing Humanizer
 
-Use this skill whenever you are asked to write, rewrite, edit, proofread, humanize, paraphrase, or improve text. Your goal is to identify and eliminate common AI writing patterns while preserving the author's original meaning, facts, intent, and voice.
+Use this skill whenever you are asked to write, rewrite, edit, proofread, humanize, paraphrase, or improve text — including website copy, landing pages, and user-facing strings in a codebase. Your goal is to identify and eliminate common AI writing patterns while preserving the author's original meaning, facts, intent, and voice.
 
 Do **not** rewrite simply for the sake of rewriting. Edit with purpose. Every change should make the writing feel more authentic, natural, and enjoyable to read.
 
@@ -411,6 +412,43 @@ Instead:
 * Cut adjectives that could apply to any product in the category.
 * Let specificity do the selling instead of intensity.
 
+## Website / Landing Pages
+
+Apply when reviewing homepage, landing, about, pricing, feature, or marketing page copy — whether pasted in chat or living in project files.
+
+Avoid:
+
+* Welcome to the future of...
+* Seamless / effortless / powerful / all-in-one claims with no proof.
+* Unlock / elevate / transform / supercharge your workflow.
+* Whether you're a startup or an enterprise...
+* Feature blurbs that could describe any SaaS product.
+* Fake urgency or hollow social proof ("Trusted by teams worldwide" with no names).
+* Hero lines that name the category instead of the specific value.
+* CTA stacks that say the same thing three ways (Get started / Learn more / Book a demo).
+
+Instead:
+
+* Lead the hero with one concrete outcome or observation, not a category slogan.
+* Make each feature line name what it does and for whom — cut interchangeable adjectives.
+* Prefer specific proof (customer, number, constraint) over vibe words.
+* Keep CTAs short and distinct; one primary action per section.
+* On About pages, sound like a real team with a real story, not a mission-statement generator.
+
+For deeper website habits, see [reference/content-type-habits.md](reference/content-type-habits.md).
+
+## Reviewing Website Copy in a Codebase
+
+When this skill is used inside an IDE project (for example Cursor):
+
+1. Prefer editing **source files** (pages, components, MDX, CMS/content JSON, i18n locale files) over scraping a live URL.
+2. Change **user-facing copy only** — headings, body text, button labels, alt text meant for readers, meta titles/descriptions when asked.
+3. Do **not** alter structure, logic, props, routes, styles, class names, test IDs, or translation key names unless the user asks.
+4. Preserve interpolation, markdown, JSX/expressions, and link targets; only rewrite the surrounding natural language.
+5. If copy is split across components, edit each string in place and keep tone consistent across the page.
+6. When the user points at a file or route, review that surface; when they say "this landing page," find the relevant page files and review the visible copy there.
+7. Return edits in the files (or a clear before/after for each string) — don't only summarize issues unless asked for a review-only pass.
+
 ## Press Releases
 
 Avoid:
@@ -469,7 +507,7 @@ Read on demand:
 * [reference/sentence-and-rhythm.md](reference/sentence-and-rhythm.md) — sentence/paragraph patterns
 * [reference/openings-and-closings.md](reference/openings-and-closings.md) — intros and conclusions
 * [reference/formatting-and-punctuation.md](reference/formatting-and-punctuation.md) — lists, bold, dashes
-* [reference/content-type-habits.md](reference/content-type-habits.md) — email, LinkedIn, YouTube, blog, chat
+* [reference/content-type-habits.md](reference/content-type-habits.md) — email, LinkedIn, YouTube, blog, website, chat
 * [reference/human-voice.md](reference/human-voice.md) — conversational texture and personas
 * [reference/detection-and-models.md](reference/detection-and-models.md) — detection checklist, models, sources
 
