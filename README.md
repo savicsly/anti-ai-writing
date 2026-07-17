@@ -19,9 +19,10 @@ When active, the skill edits, rewrites, proofreads, humanizes, or paraphrases te
 - Social media captions
 - Text messages / DMs
 - Product descriptions
-- Website / landing page copy (including user-facing strings in a codebase)
+- Website / landing page copy
 - Press releases
 - Cover letters / résumés
+- Everyday project writing: UI microcopy, commits, PRs, issues, README/docs/changelogs, code comments, review notes
 
 ## Repo structure
 
@@ -31,13 +32,14 @@ anti-ai-writing/                 # repo root
 ├── LICENSE
 └── skills/
     └── anti-ai-writing/         # the skill folder
-        ├── SKILL.md             # core instructions
+        ├── SKILL.md             # core instructions (thin router)
         └── reference/
             ├── vocabulary.md
             ├── sentence-and-rhythm.md
             ├── openings-and-closings.md
             ├── formatting-and-punctuation.md
             ├── content-type-habits.md
+            ├── project-writing.md
             ├── human-voice.md
             └── detection-and-models.md
 ```
@@ -105,10 +107,13 @@ Example prompts:
 - "Proofread this cover letter for AI clichés and corporate filler."
 - "Review the copy on this landing page for AI-sounding marketing language."
 - "Humanize the hero and feature blurbs in `app/page.tsx` — keep the JSX intact."
+- "Rewrite this empty state and error toast — less 'Oops!', more specific."
+- "Humanize this PR description and the commit message."
+- "Edit the README intro so it doesn't sound like a product brochure."
 
-In a project (for example Cursor), the skill prefers editing user-facing strings in source files over rewriting a pasted dump of the whole page.
+In a project (for example Cursor), the skill prefers editing user-facing strings and docs in source files over rewriting a pasted dump of the whole page. It leaves logic, keys, and structure alone unless you ask otherwise.
 
-You can also ask the agent to consult a specific reference file (for example, email habits, website habits, or the detection checklist).
+You can also ask the agent to consult a specific reference file (for example, project writing, website habits, or the detection checklist).
 
 ## Reference manual
 
@@ -121,6 +126,7 @@ The `reference/` files are readable on their own and linked from `SKILL.md` for 
 | `openings-and-closings.md` | Formulaic intros/endings and human replacements |
 | `formatting-and-punctuation.md` | Lists, bold, em dashes, punctuation tells |
 | `content-type-habits.md` | Email, LinkedIn, YouTube, blog, website, chatbot habits |
+| `project-writing.md` | UI microcopy, commits, PRs, issues, docs, comments, review notes |
 | `human-voice.md` | Conversational texture and persona style guides |
 | `detection-and-models.md` | Why AI is recognizable, checklist, models, sources |
 

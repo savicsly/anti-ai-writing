@@ -6,16 +6,15 @@ description: >-
   structures, and internet clichés. Preserve meaning, improve flow, and
   eliminate filler. Use when asked to write, rewrite, edit, proofread,
   humanize, paraphrase, or improve text — including website copy, landing
-  pages, marketing pages, and user-facing strings in a codebase.
+  pages, UI microcopy, PR/commit messages, docs, READMEs, and other
+  user-facing or project writing in a codebase.
 ---
 
 # Anti-AI Writing Humanizer
 
-Use this skill whenever you are asked to write, rewrite, edit, proofread, humanize, paraphrase, or improve text — including website copy, landing pages, and user-facing strings in a codebase. Your goal is to identify and eliminate common AI writing patterns while preserving the author's original meaning, facts, intent, and voice.
+Use this skill whenever you are asked to write, rewrite, edit, proofread, humanize, paraphrase, or improve text. Eliminate common AI writing patterns while preserving meaning, facts, intent, and voice.
 
-Do **not** rewrite simply for the sake of rewriting. Edit with purpose. Every change should make the writing feel more authentic, natural, and enjoyable to read.
-
-The objective is not to "beat AI detectors." The objective is to produce writing that reads as though it was written by a thoughtful human.
+Do **not** rewrite for the sake of rewriting. Edit with purpose. The goal is writing that reads like a thoughtful human — not "beating" AI detectors.
 
 For deeper examples or genre patterns, read the matching file under [reference/](reference/).
 
@@ -25,460 +24,98 @@ For deeper examples or genre patterns, read the matching file under [reference/]
 
 Always:
 
-* Preserve the original meaning.
-* Preserve facts, data, and technical accuracy.
+* Preserve the original meaning, facts, and technical accuracy.
 * Preserve the author's tone unless instructed otherwise.
-* Improve readability and flow.
-* Remove unnecessary words.
-* Prefer clarity over complexity.
-* Write for humans, not algorithms.
+* Improve readability and flow; remove unnecessary words.
+* Prefer clarity over complexity. Write for humans, not algorithms.
 
 Never:
 
-* Invent information.
-* Change the intended message.
+* Invent information or change the intended message.
 * Add generic filler.
-* Make the writing sound more "professional" at the expense of sounding natural.
+* Make writing sound more "professional" at the expense of sounding natural.
 
 ---
 
-# AI Vocabulary to Avoid
+# AI Fingerprints to Remove
 
-Watch for words that frequently appear in AI-generated writing. Replace them with simpler, more natural alternatives whenever appropriate.
+## Vocabulary & stock phrases
 
-Common examples include:
+Replace overused AI vocabulary (`leverage`, `utilize`, `robust`, `seamless`, `comprehensive`, `innovative`, `cutting-edge`, `empower`, `unlock`, `elevate`, `streamline`, `furthermore`, `moreover`, etc.) with simpler alternatives when appropriate.
 
-* leverage
-* utilize
-* robust
-* seamless
-* comprehensive
-* innovative
-* transformative
-* cutting-edge
-* dynamic
-* scalable
-* optimize
-* maximize
-* streamline
-* ecosystem
-* framework
-* holistic
-* empower
-* navigate
-* landscape
-* pivotal
-* unlock
-* elevate
-* revolutionize
-* ultimately
-* furthermore
-* moreover
-* additionally
-* consequently
-* notably
-* importantly
-* undoubtedly
-* clearly
-* indeed
+Cut stock openers/closers: *In today's world…*, *It is important to note…*, *Let's dive in…*, *Here's the thing…*, *Whether you're…*, *In conclusion…*, *The key takeaway is…*, *At the end of the day…*.
 
-Also avoid obvious AI stock phrases such as:
+Full lists and substitutes: [reference/vocabulary.md](reference/vocabulary.md).
 
-* In today's world...
-* It is important to note...
-* Let's dive in...
-* Here's the thing...
-* Whether you're...
-* In conclusion...
-* To summarize...
-* By following these steps...
-* The key takeaway is...
-* At the end of the day...
+## Sentence rhythm
 
-If a simpler alternative exists, use it. See [reference/vocabulary.md](reference/vocabulary.md).
+Avoid similar lengths, repeated openings, perfectly balanced paragraphs, and excessively polished flow. Mix short, medium, and long sentences; let paragraphs vary; read aloud to check rhythm.
+
+Details: [reference/sentence-and-rhythm.md](reference/sentence-and-rhythm.md).
+
+## Tone & clichés
+
+Avoid corporate jargon, empty motivational language, and internet clichés (*game changer*, *next level*, *let that sink in*, *this changes everything*, *three lessons…*). Be direct and specific. Prefer plain English.
+
+## Openings, closings & filler
+
+Start with the actual point or a concrete observation — not *Technology is changing the world* or *In today's digital age*. End naturally; stop when the point is made. Delete filler (*It should be noted that…*, *In order to…*, *Due to the fact that…*). Don't repeat the same idea in different words.
+
+More openers/closers: [reference/openings-and-closings.md](reference/openings-and-closings.md).
+
+## Human voice
+
+Add specificity and concrete nouns. Prefer active voice. Allow slight imperfections. Sound like someone with experience, not a summary bot.
+
+Personas and texture: [reference/human-voice.md](reference/human-voice.md).
 
 ---
 
-# Sentence Rhythm
+# Content-Type Guidelines
 
-One of the biggest giveaways of AI writing is predictable rhythm.
+Keep these short. For playbooks and before/after examples, open the matching reference.
 
-Avoid:
+**Emails** — Skip *I hope this email finds you well* / *Please don't hesitate…*. Be concise. → [content-type-habits.md](reference/content-type-habits.md)
 
-* Similar sentence lengths.
-* Every sentence following the same structure.
-* Constant subject-verb-object construction.
-* Perfectly balanced paragraphs.
-* Repeating the same sentence openings.
-* Excessively polished flow.
+**LinkedIn** — No fake vulnerability, three-lesson formulas, engagement bait, or emoji overload. → [content-type-habits.md](reference/content-type-habits.md)
 
-Instead:
+**Blog** — Cut SEO fluff, generic intros, repeated summaries, artificial FAQs. → [content-type-habits.md](reference/content-type-habits.md)
 
-* Mix short, medium, and long sentences.
-* Occasionally use sentence fragments where appropriate.
-* Let some ideas breathe.
-* Allow paragraphs to vary naturally.
-* Read the writing aloud to check its rhythm.
+**YouTube scripts** — No *Before we begin…* / *watch until the end* / *Let's dive right in*. Speak to one person. → [content-type-habits.md](reference/content-type-habits.md)
 
-For contrast frames and paragraph skeletons, see [reference/sentence-and-rhythm.md](reference/sentence-and-rhythm.md).
+**Technical writing** — Keep accuracy and terminology; remove unnecessary complexity only.
 
----
+**Academic** — Cut throat-clearing (*This paper aims to explore…*, *A plethora of studies…*). State the claim, cite specifics, preserve field conventions.
 
-# Natural Conversational Flow
+**Social captions** — Avoid POV / "this is your sign" templates. Write a specific thought. → [content-type-habits.md](reference/content-type-habits.md)
 
-Write the way thoughtful people actually communicate.
+**Texts / DMs** — Match real texting; say the thing first; skip preamble.
 
-Use:
+**Product descriptions** — Lead with concrete buyer-relevant detail; cut category-generic adjectives.
 
-* Natural transitions.
-* Simple language.
-* Direct explanations.
-* Occasional contractions.
-* Contextual examples.
-* Concrete observations.
+**Website / landing** — Concrete hero outcome; feature lines that fail a competitor swap-test; specific proof; one primary CTA. → [content-type-habits.md](reference/content-type-habits.md)
 
-Avoid sounding scripted.
+**Press releases** — Lead with the news; quotes a real person would say; no *thrilled to announce* padding.
 
-The reader should never feel like they're reading a template.
+**Cover letters / résumés** — Concrete fit and evidence; not *passionate about leveraging* keyword soup.
+
+**Project writing** (UI microcopy, commits, PRs, issues, README/docs/changelogs, comments, review notes, Slack/status) → [reference/project-writing.md](reference/project-writing.md)
 
 ---
 
-# Fake Professional Tone
-
-Avoid writing that sounds like corporate marketing copy.
-
-Reduce:
-
-* Corporate jargon.
-* Buzzwords.
-* Empty motivational language.
-* Generic business speak.
-* Overly polished phrasing.
-
-Instead:
-
-* Be direct.
-* Be specific.
-* Say exactly what needs to be said.
-* Prefer plain English over impressive vocabulary.
-
----
-
-# Overused Internet Phrases
-
-Avoid phrases that have become clichés across AI-generated content, LinkedIn posts, newsletters, blogs, and YouTube scripts.
-
-Examples include:
-
-* Game changer
-* Next level
-* Think about it
-* Here's why
-* Let that sink in
-* You won't believe
-* Without further ado
-* This changes everything
-* The future of...
-* Hidden secret
-* Little-known trick
-* No one talks about...
-* I wish someone had told me...
-* Here's what I learned...
-* Three lessons...
-* The truth is...
-
-Rewrite these naturally.
-
----
-
-# Introductions
-
-Avoid generic openings.
-
-Examples:
-
-* Technology is changing the world.
-* We live in a rapidly evolving landscape.
-* Artificial intelligence has transformed...
-* In today's digital age...
-
-Instead:
-
-* Start with the actual point.
-* Use a specific observation.
-* Begin with context.
-* Open with a concrete example if helpful.
-
----
-
-# Conclusions
-
-Avoid predictable endings.
-
-Examples:
-
-* In conclusion...
-* Ultimately...
-* To summarize...
-* The key takeaway...
-* By following these tips...
-
-Instead:
-
-* End naturally.
-* Leave the reader with one useful thought.
-* Stop when the point has been made.
-
-Not every piece of writing needs a formal conclusion.
-
-More openers/closers by genre: [reference/openings-and-closings.md](reference/openings-and-closings.md).
-
----
-
-# Remove Filler
-
-Delete words and phrases that add little or no value.
-
-Examples:
-
-* It should be noted that...
-* It is worth mentioning...
-* Basically...
-* Simply put...
-* Needless to say...
-* As previously mentioned...
-* In order to...
-* Due to the fact that...
-
-Every sentence should earn its place.
-
----
-
-# Avoid Repetition
-
-Watch for repeated:
-
-* Transition words.
-* Sentence openings.
-* Vocabulary.
-* Paragraph structures.
-* Analogies.
-* Examples.
-
-If something has already been said, don't say it again in different words.
-
----
-
-# Improve Human Voice
-
-Where appropriate:
-
-* Add specificity.
-* Use concrete nouns.
-* Replace abstract wording.
-* Prefer active voice.
-* Allow slight imperfections.
-* Make the writing sound like someone with experience, not someone summarizing information.
-
-Natural writing has texture. For persona style guides, see [reference/human-voice.md](reference/human-voice.md).
-
----
-
-# Content-Specific Guidelines
-
-For deeper genre playbooks, see [reference/content-type-habits.md](reference/content-type-habits.md).
-
-## Emails
-
-Avoid:
-
-* I hope this email finds you well.
-* I trust you're doing well.
-* I wanted to reach out...
-* Please don't hesitate...
-
-Write concise, natural emails that respect the reader's time.
-
-## LinkedIn Posts
-
-Avoid:
-
-* Fake vulnerability.
-* Engagement bait.
-* Three-lesson formulas.
-* Generic inspirational endings.
-* Excessive whitespace.
-* Emoji overload.
-
-Write like an experienced professional sharing genuine insights.
-
-## Blog Articles
-
-Avoid:
-
-* SEO fluff.
-* Generic introductions.
-* Repeated summaries.
-* Artificial FAQs.
-* Keyword stuffing.
-
-Prioritize useful information.
-
-## YouTube Scripts
-
-Avoid:
-
-* Before we begin...
-* Make sure you watch until the end...
-* Let's dive right in...
-* Without further ado...
-
-Write as though you're speaking naturally to one person.
-
-## Technical Writing
-
-Do not simplify away technical accuracy.
-
-Instead:
-
-* Remove unnecessary complexity.
-* Improve readability.
-* Keep terminology correct.
-* Preserve precision.
-
-## Academic Writing
-
-Avoid:
-
-* This paper aims to explore...
-* It is important to note that...
-* A plethora of studies...
-* In recent years, there has been growing interest in...
-* This study seeks to fill a gap in the literature.
-* Overall, the findings suggest...
-
-Instead:
-
-* State the claim, then support it.
-* Cite specifics instead of vague hedges ("many researchers argue" → name them).
-* Keep required academic register, but cut throat-clearing before the point.
-* Let sentences vary in length even in formal writing — uniform academic cadence still reads as generated.
-* Preserve discipline-specific conventions (citation style, passive voice where the field expects it) unless asked to change them.
-
-## Social Media Captions
-
-Avoid:
-
-* POV: ...
-* Tell me you're X without telling me you're X.
-* This is your sign to...
-* Not me doing/being...
-* Rare footage of...
-* Excessive emoji as punctuation.
-* Manufactured relatability ("Anyone else...?").
-
-Instead:
-
-* Write like a specific person with a specific thought, not a caption template.
-* Let humor come from the actual observation, not a recycled meme format.
-* Keep it short because the platform rewards it, not because you're filling a formula.
-
-## Text Messages / DMs
-
-Avoid:
-
-* Full sentences with formal punctuation where a fragment would do.
-* I hope you're doing well! / Just wanted to reach out.
-* Overly structured replies (numbered points in a text).
-
-Instead:
-
-* Match how the person actually texts — casual, clipped, real.
-* Say the thing first; skip the preamble entirely.
-
-## Product Descriptions
-
-Avoid:
-
-* Experience the ultimate...
-* Designed to elevate your...
-* Say goodbye to [problem] forever.
-* Unleash the power of...
-* Whether you're a beginner or a pro...
-
-Instead:
-
-* Lead with the concrete detail that actually matters to a buyer (material, size, what it does differently).
-* Cut adjectives that could apply to any product in the category.
-* Let specificity do the selling instead of intensity.
-
-## Website / Landing Pages
-
-Apply when reviewing homepage, landing, about, pricing, feature, or marketing page copy — whether pasted in chat or living in project files.
-
-Avoid:
-
-* Welcome to the future of...
-* Seamless / effortless / powerful / all-in-one claims with no proof.
-* Unlock / elevate / transform / supercharge your workflow.
-* Whether you're a startup or an enterprise...
-* Feature blurbs that could describe any SaaS product.
-* Fake urgency or hollow social proof ("Trusted by teams worldwide" with no names).
-* Hero lines that name the category instead of the specific value.
-* CTA stacks that say the same thing three ways (Get started / Learn more / Book a demo).
-
-Instead:
-
-* Lead the hero with one concrete outcome or observation, not a category slogan.
-* Make each feature line name what it does and for whom — cut interchangeable adjectives.
-* Prefer specific proof (customer, number, constraint) over vibe words.
-* Keep CTAs short and distinct; one primary action per section.
-* On About pages, sound like a real team with a real story, not a mission-statement generator.
-
-For deeper website habits, see [reference/content-type-habits.md](reference/content-type-habits.md).
-
-## Reviewing Website Copy in a Codebase
-
-When this skill is used inside an IDE project (for example Cursor):
-
-1. Prefer editing **source files** (pages, components, MDX, CMS/content JSON, i18n locale files) over scraping a live URL.
-2. Change **user-facing copy only** — headings, body text, button labels, alt text meant for readers, meta titles/descriptions when asked.
-3. Do **not** alter structure, logic, props, routes, styles, class names, test IDs, or translation key names unless the user asks.
-4. Preserve interpolation, markdown, JSX/expressions, and link targets; only rewrite the surrounding natural language.
-5. If copy is split across components, edit each string in place and keep tone consistent across the page.
-6. When the user points at a file or route, review that surface; when they say "this landing page," find the relevant page files and review the visible copy there.
-7. Return edits in the files (or a clear before/after for each string) — don't only summarize issues unless asked for a review-only pass.
-
-## Press Releases
-
-Avoid:
-
-* We are thrilled/excited to announce...
-* This marks a significant milestone...
-* [Company] is proud to unveil...
-* Generic boilerplate quotes that sound interchangeable across executives.
-
-Instead:
-
-* Lead with the news, not the emotion about the news.
-* Make quotes sound like something a specific person would actually say.
-* Keep it factual; let the news carry the weight.
-
-## Cover Letters / Resumes
-
-Avoid:
-
-* I am writing to express my interest in...
-* Proven track record of...
-* Team player with excellent communication skills.
-* Results-driven professional...
-* Passionate about leveraging my skills...
-
-Instead:
-
-* Open with something concrete about the role or the fit, not a template sentence.
-* Replace trait claims ("detail-oriented") with evidence (what you actually did).
-* Sound like a person who did specific things, not a résumé keyword list.
+# Editing in a Codebase
+
+When used inside an IDE project (for example Cursor):
+
+1. Prefer editing **source files** (pages, components, MDX, CMS/content JSON, i18n locales, docs) over scraping a live URL.
+2. Change **user-facing or docs copy only** unless asked otherwise.
+3. Do **not** alter logic, props, routes, styles, class names, test IDs, variable names, API paths, error codes, or translation **key names** unless asked.
+4. Preserve interpolation, markdown structure, JSX/expressions, and link targets; rewrite surrounding natural language only.
+5. Keep tone consistent across one surface (page, PR, doc).
+6. If asked for review-only, list AI tells with file references before rewriting.
+7. Return in-file edits (or clear before/after per string) — don't only summarize unless asked.
+
+Website-specific habits: [content-type-habits.md](reference/content-type-habits.md). Project surfaces: [project-writing.md](reference/project-writing.md).
 
 ---
 
@@ -488,11 +125,10 @@ Before returning any response, verify that it:
 
 * Preserves the original meaning.
 * Sounds natural when read aloud.
-* Uses varied sentence lengths.
-* Avoids repetitive sentence structures.
-* Avoids common AI vocabulary, corporate jargon, and overused internet phrases.
+* Uses varied sentence lengths and structures.
+* Avoids AI vocabulary, corporate jargon, and overused internet phrases.
 * Removes unnecessary filler and formulaic openings/closings.
-* Maintains natural conversational flow without sounding templated.
+* Feels conversational without sounding templated.
 * Is concise without feeling abrupt.
 
 Skim the matching `reference/` file for genre-specific habits before finishing.
@@ -508,6 +144,7 @@ Read on demand:
 * [reference/openings-and-closings.md](reference/openings-and-closings.md) — intros and conclusions
 * [reference/formatting-and-punctuation.md](reference/formatting-and-punctuation.md) — lists, bold, dashes
 * [reference/content-type-habits.md](reference/content-type-habits.md) — email, LinkedIn, YouTube, blog, website, chat
+* [reference/project-writing.md](reference/project-writing.md) — UI microcopy, PRs, commits, docs, comments
 * [reference/human-voice.md](reference/human-voice.md) — conversational texture and personas
 * [reference/detection-and-models.md](reference/detection-and-models.md) — detection checklist, models, sources
 

@@ -257,3 +257,5 @@ When copy lives in pages, components, MDX, or locale files:
 - [ ] Match formality to the relationship and channel
 - [ ] Cut stacked CTAs and summary closers
 - [ ] Prefer one clear ask over soft hedges
+
+For UI microcopy, commits, PRs, issues, docs, and review comments, see [project-writing.md](project-writing.md).
