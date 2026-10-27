@@ -327,3 +327,49 @@ Bloomberry flags *at its core*, *when it comes to*, and *needless to say* as ele
 - [ ] Replace buzzwords with specifics (numbers, names, mechanisms)
 - [ ] Keep at most one "smart" word per passage — if any
 - [ ] Read aloud; if it sounds like a pitch deck, rewrite
+
+---
+
+## 2025 to 2026 additions
+
+Word lists age fast, so this section favours *kinds* of word over a ban list. Sources: Pangram, the tropes.fyi directory, the Wikipedia editors' guide, and the 2026 UWA write-up (see detection-and-models.md).
+
+### Intensifier adverbs that add mood, not meaning
+
+*quietly*, *deeply*, *genuinely*, *fundamentally*, *truly*, *remarkably*. Often pasted before a verb to add weight ("quietly transforming", "fundamentally changes"). Cut the adverb, or replace it with the fact that justifies the weight.
+
+### Ornate nouns for simple things
+
+*tapestry*, *landscape*, *paradigm*, *realm*, *ecosystem*, *journey*, *testament*. Say what the thing is: "the market", "the way we work", "the team".
+
+### Pompous swaps for plain verbs
+
+| AI phrasing | Plain |
+|-------------|-------|
+| serves as | is |
+| stands as a testament to | shows |
+| boasts | has |
+| plays a crucial role in | matters for / affects |
+| offers a range of | has / includes |
+| facilitates | helps / allows |
+
+### Hazy trailing significance (the "-ing" add-on)
+
+Sentence ends with a participle clause that claims importance without saying what it is: *"...highlighting its importance"*, *"...reflecting broader trends"*, *"...underscoring the need for"*. Either delete the clause or replace it with the specific consequence ("so we lost two weeks of orders").
+
+### Invented compound labels and quotable lines
+
+Coined two-word concepts and slogan-like closers (*the trust gap*, *the intelligence layer*, *a quiet revolution*). Keep a label only if the author would use it in conversation and it will be used again.
+
+### Performed candour
+
+*honestly*, *to be frank*, *let's be real*, *here's the truth*. A real admission carries a detail; a stock one only announces itself.
+
+### Promotional register in neutral text
+
+Scenic, glowing or "premium" description (*breathtaking*, *vibrant*, *world-class*, *state-of-the-art*) where the text should simply inform. Wikipedia's editors flag this as typical of model prose.
+
+### Handle with care
+
+Do not strip these when they are doing real work: technical terms (*robust* in a spec, *scalable* in an architecture doc), quoted material, product names, legal language, and words a non-native writer uses correctly and formally. Formality is not a defect.
+

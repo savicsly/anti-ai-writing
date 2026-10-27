@@ -68,19 +68,29 @@ Look for a **cluster** of signals, not one token.
 
 ## Model comparisons
 
-Most patterns above appear across major LLMs. Differences below are **editorial tendencies** from published analyses and practitioner reports — not hard guarantees. Models change with updates.
+Most patterns in this manual appear across major LLMs, and they shift with every model release. Treat anything below as a snapshot of editorial observation, not a guarantee, and prefer structural checks (specificity, stance, rhythm) over trying to name the model.
 
-| Model family | Often-noted tendencies |
-|--------------|------------------------|
-| **ChatGPT / GPT** | Polite, cautious, helpful-explainer register; list scaffolding; historically "As an AI…" disclaimers (rarer now); phrases like "let's unpack" appear in ChatGPT-associated hook lists; strong grammar polish |
-| **Claude** | Formal register; comparatively dense em-dash use in many observations; philosophical asides; vocabulary like *tapestry* flagged in some corpora |
-| **Gemini** | Broadly GPT-like in pure text; sometimes more concrete/visual examples when multimodal context is present (limited public stylometry) |
-| **Llama** (open) | More variance by fine-tune; base models can show odd phrase choices; chat fine-tunes often mimic GPT-like patterns |
-| **DeepSeek** | Strong technical/expository competence; can still exhibit list-heavy, hedged explainer register in general prose (editorial observation) |
-| **Grok** | Tuned toward informal / irreverent voice in product positioning; still capable of stock AI structure when unconstrained |
-| **Mistral** | Depends heavily on fine-tune; instruction models often share cross-model transition and framing habits |
+What the 2025 to 2026 sources agree on:
 
-Bloomberry marks frames like "at its core" and "when it comes to" as elevated across models, while some hooks are model-tilted. Pangram Labs has published work on distinguishing LLM sources from one another — styles are separable in aggregate, not by one phrase.
+- **Em dash density varies by model family and is no longer a reliable tell on its own.** Pangram's published figures put OpenAI models around 9x the human rate, open-source models around 8x, Anthropic models around 7x, and Gemini 3 Pro below the human rate (about 0.7x). This is vendor data from a company that sells detection, so treat the numbers as indicative. A 2026 UWA write-up reports that in an informal test only one of six chatbots leaned on em dashes, and calls the em dash an unreliable tell.
+- **Markdown scaffolding is the strongest family-agnostic signal in chat-style output:** bold, headers and bullets appear far more often in AI text than in human prose (Pangram reports bold about 43x and headers about 23x per 10,000 words).
+- **Stock-phrase hooks differ by model, but contrast framing ("not just X but Y"), triads and "serves as"-style verb swaps appear across all of them.**
+- **Open-weight and fine-tuned models vary widely.** Chat fine-tunes often inherit the habits of the larger proprietary models they were trained on.
+- **Newer models are tuned against the old tells.** Words like *delve* have faded in some outputs while structure (symmetry, hazy trailing clauses, stacked caveats) persists. A tell has a half-life of months, not years.
+
+| Signal | Reliability in 2026 | Notes |
+|--------|---------------------|-------|
+| Single word (*delve*, *tapestry*) | Weak and decaying | Wikipedia editors and journalists both note weak evidence for specific words |
+| Markdown density in prose | Strong when it appears where a person would write plain text | Context matters: docs and READMEs legitimately use headers and bullets |
+| Em dash density | Weak to moderate; varies by model | Do not strip dashes mechanically |
+| Contrast framing and triads | Moderate; stacks well with others | Pangram: roughly 3x and 4x human rate |
+| Hazy trailing significance clauses | Moderate to strong | Called out in the Wikipedia guide |
+| Missing specifics (no names, numbers, dates) | Strong and durable | Hardest for a model to fake without real input |
+| Uniform cadence and paragraph shape | Moderate and durable | See sentence-and-rhythm.md |
+
+Detectors: Wikipedia's editor guide describes automated detection tools as close to useless for its purposes, and Liang et al. (2023) showed detectors flagging non-native writers at high rates. Do not use detector scores as a target.
+
+Homogenisation: a Nature Human Behaviour study of more than 880,000 texts, as reported in the UWA piece, links wider LLM use to less variation in writing style. That is a reason to protect the author's real voice, not only to remove tells.
 
 ---
 
@@ -118,6 +128,13 @@ Bloomberry marks frames like "at its core" and "when it comes to" as elevated ac
 - Reply.io / Eugene Suslov (2025). *AI Words in Emails: A Practical Guide.* https://reply.io/blog/ai-words-in-emails/
 - Grammarly. *How to Avoid AI Detection* / AI detector explainers. https://www.grammarly.com/blog/ai/how-to-avoid-ai-detection/ — note: product-oriented; useful on perplexity/burstiness framing.
 - HumanizeMyAI. *AI Words to Avoid* (detector-backed list). https://humanizemy.ai/ai-words-to-avoid — aggregates excess-vocab and phrase signals; treat lists as provisional.
+
+### 2025 to 2026 additions
+
+- Pangram Labs. *9 Signs of AI Writing, Backed by Data.* https://www.pangram.com/signs-of-ai-writing: per-10,000-word rates for markdown, stock phrases, em dashes, bullets, triads, contrast framing, unusual Unicode, openers and emoji. Vendor data; the page itself says no single tell is a giveaway and its em dash baselines are not fully consistent.
+- Wikipedia editors. *Signs of AI writing* (WikiProject AI Cleanup guide, 2025). Covered by TechCrunch, 20 Nov 2025: https://techcrunch.com/2025/11/20/the-best-guide-to-spotting-ai-writing-comes-from-wikipedia/: overstated importance, padded notability, hazy trailing clauses, promotional tone; warns that detectors are unreliable.
+- tropes.fyi directory of AI writing tropes (49 entries with trend tags): https://tropes.fyi/directory
+- University of Western Australia (Aug 2026). *Can you teach yourself to detect AI writing? Maybe.* https://www.uwa.edu.au/news/article/2026/august/can-you-teach-yourself-to-detect-ai-writing: cues that help and mislead, em dash unreliability, homogenisation finding, caveats about detectors.
 
 ### Community & style guides
 

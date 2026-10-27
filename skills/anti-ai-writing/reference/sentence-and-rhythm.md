@@ -224,3 +224,46 @@ Zero typos, zero voice slips, perfect parallelism everywhere can itself feel syn
 - [ ] Mix sentence lengths; add one intentional fragment if the genre allows
 - [ ] Replace "There are N key…" preambles with the first real point
 - [ ] Read aloud — if it sounds like a slide deck, rewrite
+
+---
+
+## Newer structural tells (2025 to 2026)
+
+These sit above the ten classic patterns and survive vocabulary clean-ups, which is why they matter more than word lists.
+
+### Contrast framing, in all its forms
+
+*Not just X, but Y.* *It's not X. It's Y.* *Not X, not Y, just Z.* Pangram reports the "not just X but Y" shape at about three times the human rate; tropes.fyi lists several variants. Test: delete the denied half. If the sentence still works ("It's Y."), the contrast was decoration. Keep a contrast only when someone really believes the denied claim.
+
+### Triads by default
+
+Three adjectives, three benefits, three examples, every time. Pangram reports triads at roughly four times the human rate. Use the number the content demands: one precise example often beats three vague ones.
+
+### The unearned fragment paragraph
+
+A one-line paragraph used for emphasis after every few paragraphs. One per piece can land; a pattern reads as performance.
+
+### Teacher hand-holding
+
+*Let's break this down.* *Think of it as...* *Here's what that means.* Fine in a tutorial where the author is actually teaching; filler when the reader already follows.
+
+### Numbered points in disguise
+
+*The first... The second... The third...* as prose. Either number them properly or let the argument connect without counting.
+
+### Hazy significance clause at the end of a sentence
+
+See vocabulary.md. A sentence that has already made its point does not need a participle clause telling the reader why it matters.
+
+### Self-posed questions
+
+*So what does this mean for you?* *The result? Chaos.* One per piece is a voice; several per page is a template.
+
+### Fractal summaries and tie-backs
+
+An introduction that previews, sections that each summarise themselves, and a closing that loops back to the first sentence. Say it once, in the place it belongs.
+
+### Quick test
+
+Read one paragraph and ask: could a competitor, a different client, or a different year drop into this sentence unchanged? If yes, the sentence is missing a name, number or decision.
+

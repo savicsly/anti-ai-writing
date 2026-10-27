@@ -21,6 +21,7 @@ When active, the skill edits, rewrites, proofreads, humanizes, or paraphrases te
 - Product descriptions
 - Website / landing page copy
 - Press releases
+- Business and agency writing: proposals, client emails, case studies, invoices and reminders, status updates
 - Cover letters / résumés
 - Everyday project writing: UI microcopy, commits, PRs, issues, README/docs/changelogs, RFCs/ADRs, code comments, review notes
 
@@ -39,6 +40,7 @@ anti-ai-writing/                 # repo root
             ├── openings-and-closings.md
             ├── formatting-and-punctuation.md
             ├── content-type-habits.md
+            ├── business-and-agency-writing.md
             ├── project-writing.md
             ├── human-voice.md
             └── detection-and-models.md
@@ -128,9 +130,10 @@ The `reference/` files are readable on their own and linked from `SKILL.md` for 
 | `openings-and-closings.md` | Formulaic intros/endings and human replacements |
 | `formatting-and-punctuation.md` | Lists, bold, em dashes, punctuation tells |
 | `content-type-habits.md` | Email, LinkedIn, YouTube, blog, website, technical, academic, social, product, press, cover letters, chat |
+| `business-and-agency-writing.md` | Proposals, client emails, case studies, agency sites, invoices and reminders, status updates; what never to rewrite |
 | `project-writing.md` | UI microcopy, commits, PRs, issues, docs, release notes, RFCs/ADRs, comments, review notes |
 | `human-voice.md` | Conversational texture and persona style guides |
-| `detection-and-models.md` | Why AI is recognizable, checklist, models, sources |
+| `detection-and-models.md` | Why AI is recognizable, checklist, model tendencies (2026 refresh), sources |
 
 ## Customizing
 

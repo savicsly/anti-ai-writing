@@ -67,7 +67,7 @@ AI introduces explanations with colons constantly:
 
 ### Em dash habits
 
-Models often use em dashes for asides and dramatic pauses — like this — more densely than most human writers. Editorial observation: Claude-family outputs are frequently called out for dash density; newer GPT-family models vary.
+Models often use em dashes for asides and dramatic pauses, more densely than most human writers. Pangram's figures put several model families at roughly 7x to 10x the human rate, while Gemini 3 Pro sits below it; a 2026 informal test reported in the UWA piece found most chatbots barely used them. So treat dash density as one weak signal. Do not search-and-replace every dash: fix the cause (too many asides in one passage) and keep dashes the author uses naturally.
 
 **Human fix:** keep dashes for genuine interruptions; prefer commas or split sentences.
 
@@ -132,3 +132,18 @@ Zero fragments, zero run-ons, consistent Oxford commas, no contractions — toge
 - [ ] Allow contractions if the genre is conversational
 - [ ] Delete "Summary" / "Key takeaways" sections that only restate
 - [ ] Check whether every section heading is necessary
+
+---
+
+## Data points and newer habits (2025 to 2026)
+
+Pangram's per-10,000-word comparison (vendor data, indicative only): markdown formatting about 12x the human rate, bullet lists about 9x, bold lead-ins about 43x, headers about 23x.
+
+Other habits to check:
+
+- **Title Case headings** and "What / Why / How" header trios on short pieces.
+- **Bold lead-in on every bullet** ("**Speed:** it is fast"). Keep bold for the few things a skimming reader must not miss.
+- **Decorative Unicode:** arrows (→), "≈", box-drawing lines, curly quotes pasted into plain-text surfaces, and emoji bullets such as ✅ and 🚀, which Pangram reports at far above human rates.
+- **Over-formatting short answers:** headers and bullets on a reply that needed three sentences.
+- **Context test:** headers and bullets are correct in READMEs, specs, runbooks and PRDs. Judge formatting against the genre, not against a blanket rule.
+
