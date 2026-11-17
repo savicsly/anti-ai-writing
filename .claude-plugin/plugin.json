@@ -1,0 +1,12 @@
+{
+  "name": "anti-ai-writing",
+  "version": "1.0.0",
+  "description": "Rewrites or reviews text so it reads like a thoughtful person wrote it: removes AI writing patterns while keeping meaning, facts, names, numbers and the author's voice.",
+  "author": {
+    "name": "Victor Bala"
+  },
+  "homepage": "https://github.com/savicsly/anti-ai-writing#readme",
+  "repository": "https://github.com/savicsly/anti-ai-writing",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "humanize", "copywriting", "ai-writing"]
+}

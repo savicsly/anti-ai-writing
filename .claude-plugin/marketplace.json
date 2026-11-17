@@ -1,0 +1,15 @@
+{
+  "name": "human-writing",
+  "owner": {
+    "name": "Victor Bala"
+  },
+  "description": "Writing skill that removes AI patterns from text.",
+  "plugins": [
+    {
+      "name": "anti-ai-writing",
+      "source": ".",
+      "description": "Rewrites or reviews text so it reads like a thoughtful person wrote it: removes AI writing patterns while keeping meaning, facts, names, numbers and the author's voice.",
+      "category": "productivity"
+    }
+  ]
+}

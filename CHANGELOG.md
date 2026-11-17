@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 (2026-11-17)
+
+Packaged for distribution, matching the layout of `app-security-audit`.
+
+- **Install paths:** Claude Code plugin (`.claude-plugin/plugin.json`, `marketplace.json`, icon), a dependency-free `npx anti-ai-writing` installer for Claude Code, Cursor, VS Code (GitHub Copilot), Codex, Gemini CLI, Windsurf, OpenCode and `.agents`, and the Skills CLI (`npx skills add savicsly/anti-ai-writing`).
+- **Layout:** `reference/` renamed to `references/` to follow the Agent Skills convention; all links updated.
+- **SKILL.md:** one H1 with H2 sections, so the outline is easier for agents and readers to follow. No rule changes.
+- **Repo:** `package.json`, `RELEASING.md`, wider `.gitignore`, README rewritten around the install options.
+
 ## 2026-10 refresh
 
 - **SKILL.md:** sharper trigger description; added Rewrite / Review-only / Light-touch modes; added a protected-content list (legal clauses, figures, names, IDs, quotes, code); added a working method with a verify step; stated that detectors are unreliable and not a target; added a "never invent" rule.

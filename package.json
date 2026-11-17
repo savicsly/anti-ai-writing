@@ -1,0 +1,45 @@
+{
+  "name": "anti-ai-writing",
+  "version": "1.0.0",
+  "description": "AI agent skill that rewrites or reviews text so it reads like a thoughtful person wrote it, removing AI writing patterns while keeping meaning, facts and voice. Installs into Claude Code, Cursor, VS Code (GitHub Copilot), Codex, Gemini CLI, Windsurf and OpenCode.",
+  "bin": {
+    "anti-ai-writing": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    ".claude-plugin",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js targets"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "writing",
+    "humanize",
+    "humanizer",
+    "ai-writing",
+    "copywriting",
+    "editing",
+    "agent-skills",
+    "claude-code",
+    "claude-code-plugin",
+    "cursor",
+    "copilot"
+  ],
+  "author": "Victor Bala",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savicsly/anti-ai-writing.git"
+  },
+  "homepage": "https://github.com/savicsly/anti-ai-writing#readme",
+  "bugs": {
+    "url": "https://github.com/savicsly/anti-ai-writing/issues"
+  }
+}
